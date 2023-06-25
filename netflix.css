@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: rgba(0,0,0, 0.5) url('netflix.jpg');
+    background-blend-mode: darken;
+}
+.logo img{
+    width: 12%;
+    margin-left: 30px;
+}
