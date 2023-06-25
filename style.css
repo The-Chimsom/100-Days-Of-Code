@@ -43,11 +43,34 @@ input{
     outline-style: none;
 }
 button{
-    width: 90%;
+    width: 85%;
     height: 30px;
     border-radius: 3px;
     border: none;
     background-color: #1877f2;
     color: white;
-
+    font-size: large;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.new-account{
+    width: 50%;
+    background-color: #42b72a;
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin: 20px 0 20px 0;
+}
+.login-btn:hover{
+    background-color: #1366d1;
 }
