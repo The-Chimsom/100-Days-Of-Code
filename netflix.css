@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background: rgba(0,0,0, 0.5) url('netflix.jpg');
+    background: rgba(0,0,0, 0.5) url('images/netflix.jpg');
     background-blend-mode: darken;
 }
 .logo img{
