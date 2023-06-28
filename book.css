@@ -42,7 +42,7 @@ input{
     color: rgba( 0, 0, 0, 0.5);
     outline-style: none;
 }
-button{
+button:not(#new-account){
     width: 85%;
     height: 30px;
     border-radius: 3px;
@@ -60,7 +60,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
-.new-account{
+#new-account{
     width: 50%;
     background-color: #42b72a;
     text-align: center;
