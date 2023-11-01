@@ -5,35 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      *{
+         padding: 0;
+         margin: 0;
+      }
       table,
       th,
       td,
       tr {
-        border: 1px solid;
+        border: 2px solid;
         border-collapse: collapse;
+        
       }
-
-      .table-container {
-        align-content: center;
+      table{
+         width: 60%;
       }
 
       .sub-title {
         display: flex;
-        gap: 2rem;
+        gap: 7rem;
+        margin-top: 1rem;
+        margin-bottom:  0.5rem;
+        margin-right: 3rem;
       }
+
+      .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .heading{
+         margin-top: 2rem;
+      }
+
+      /* .table-container{
+         width: 100%;
+      } */
     </style>
   </head>
   <body>
-    <div>
+    <div class="container">
       <div class="heading">
         <h1>Teacherwise Time-Table</h1>
       </div>
       <div class="sub-title">
-        <h4>Sesion:-Normal Time</h4>
+        <h4>Session:-Normal Time</h4>
         <h4>Teacher:-Mrs Shipa</h4>
       </div>
 
-      <div class="table-container">
         <table>
           <tr>
             <th>Periods</th>
@@ -47,143 +69,197 @@
           <tr>
             <td>(09:30-10:10)</td>
             <td>
-              Kannada <br />
-              (Jr KG-A)
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
             </td>
             <td>
-              Kannada <br />
-              (Jr KG-A)
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
             </td>
             <td>
-              Kannada <br />
-              (II-A)
+              <div>
+                <p>Kannada</p>
+                <p>(II-A)</p>
+              </div>
             </td>
             <td>
-              Kannada <br />
-              (I-A)
+              <div>
+                <p>Kannada</p>
+                <p>(I-A)</p>
+              </div>
             </td>
             <td>
-              Kannada <br />
-              (II-A)
-            </td>
-          </tr>
-          <tr>
-            <td>(09:30-10:10)</td>
-            <th></th>
-            <td>
-              Kannada <br />
-              (Sr KG-A)
-            </td>
-            <td>
-              Kannada <br />
-              (III-A)
-            </td>
-            <td></td>
-            <td>
-              Kannada <br />
-              (Jr KG-A)
-            </td>
-          </tr>
-          <tr>
-            <td>(09:30-10:10)</td>
-            <td>
-              Kannada <br />
-              (II-A)
-            </td>
-            <td>
-              Kannada <br />
-              (III-A)
-            </td>
-            <td>
-              Kannada <br />
-              (Jr KG-A)
-            </td>
-            <td>
-              Kannada <br />
-              (Jr KG-A)
-            </td>
-            <td>
-              Kannada <br />
-              (II-A)
-            </td>
-          </tr>
-          <tr>
-            <td>(09:30-10:10)</td>
-            <td>
-              Kannada <br />
-              (Jr KG-A)
-            </td>
-            <td>
-              Kannada <br />
-              (Jr KG-A)
-            </td>
-            <td>
-              Kannada <br />
-              (III-A)
-            </td>
-            <td></td>
-            <td>
-              Kannada <br />
-              (Jr KG-A)
-            </td>
-          </tr>
-          <tr>
-            <td>(09:30-10:10)</td>
-            <td>
-              Kannada <br />
-              (Sr KG-A)
-            </td>
-            <td>
-              Kannada <br />
-              (I-A)
-            </td>
-            <td></td>
-            <td></td>
-            <td>
-              Kannada <br />
-              (Sr KG-A)
-            </td>
-          </tr>
-          <tr>
-            <td>(09:30-10:10)</td>
-            <td>
-              Kannada <br />
-              (I-A)
-            </td>
-            <td>
-              Kannada <br />
-              (III-A)
-            </td>
-            <td>
-              Kannada <br />
-              (II-A)
-            </td>
-            <td>
-              Kannada <br />
-              (I-A)
-            </td>
-            <td>
-              Kannada <br />
-              (III-A)
+              <div>
+                <p>Kannada</p>
+                <p>(II-A)</p>
+              </div>
             </td>
           </tr>
           <tr>
             <td>(09:30-10:10)</td>
             <td></td>
-            <td></td>
             <td>
-              Kannada <br />
-              (Sr KG-A)
+              <div>
+                <p>Kannada</p>
+                <p>(Sr KG-A)</p>
+              </div>
             </td>
             <td>
-              Kannada <br />
-              (Sr KG-A)
+              <div>
+                <p>Kannada</p>
+                <p>(III-A)</p>
+              </div>
+            </td>
+            <td></td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>(09:30-10:10)</td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(II-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(III-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(II-A)</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>(09:30-10:10)</td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(III-A)</p>
+              </div>
+            </td>
+            <td></td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Jr KG-A)</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>(09:30-10:10)</td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Sr KG-A)</p>
+              </div>
+            </td>
+
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(I-A)</p>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Sr KG-A)</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>(09:30-10:10)</td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(I-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(III-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(II-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(I-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(III-A)</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>(09:30-10:10)</td>
+            <td></td>
+            <td></td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Sr KG-A)</p>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>Kannada</p>
+                <p>(Sr KG-A)</p>
+              </div>
             </td>
             <td></td>
             <td></td>
           </tr>
         </table>
-      </div>
     </div>
   </body>
 </html>
