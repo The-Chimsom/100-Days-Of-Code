@@ -4,35 +4,40 @@
     font-family: sans-serif;
 }
 body{
-    background: rgba(0,0,0, 0.5) url('images/netflix.jpg');
+    background: rgba(0,0,0, 0.5) url('https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png');
     background-blend-mode: darken;
 }
 .logo img{
-    width: 12%;
+    width: 10rem;
     margin-left: 30px;
 }
 .container{
-    position: absolute;
-    margin-left: 36%;
-    margin-top: 1%;
-    width: 440px;
-    height: 590px;
-    background-color: #000;
+    width: 30rem;
+    height: 40rem;
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 0.2cm;
     
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container h1{
     color: #fff;
-    margin-top: 60px;
+    margin-top: 2rem;
     margin-left: 50px;
 }
 input{
     margin-left: 50px;
     margin-top: 20px;
+    background-color: rgb(62, 62, 62);
     width: 320px;
     height: 47px;
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    width: 70%;
 }
 input::placeholder{
     font-size: 17px;
