@@ -11,18 +11,16 @@
         padding: 0;
         box-sizing: border-box;
       }
+      body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+      }
       .ui-container {
         width: 100%;
         display: flex;
         padding-top: 4.19rem;
         height: 100vh;
         overflow: hidden;
-      }
-      .text-list {
-        width: 500px;
-        height: 334px;
-        gap: 40px;
-        margin-top: 40px;
       }
       .image-container {
         width: 50%;
@@ -45,15 +43,16 @@
         font-weight: 800;
       }
 
-      .content {
-        width: 500px;
-        height: 144px;
-        font-weight: 400;
-        size: 26px;
+      .content1 {
+        margin-bottom: 1rem;
         line-height: 35.52px;
+      }
+      .content{
+       line-height: 35.52px;
       }
       button {
         color: #fff;
+        width: 9.875rem;
         border-radius: 1rem;
         background: #252525;
         padding: 1rem 1.8rem;
@@ -62,6 +61,7 @@
         font-weight: 400;
         outline: none;
         border: none;
+        margin-bottom: 1rem;
       }
 
       .first {
@@ -69,7 +69,8 @@
         font-size: 1.25rem;
         font-style: normal;
         font-weight: 400;
-        padding: 1.5rem 0;
+        /* padding: 0.5rem ; */
+        margin-top: 1rem;
       }
     </style>
   </head>
@@ -79,7 +80,7 @@
       <div class="content-right">
         <div class="description-container">
           <div class="heading">Exploration and inspiration</div>
-          <div class="content">
+          <div class="content1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
             libero risus semper habitant arcu eget. Et integer facilisi eget
             diam.
