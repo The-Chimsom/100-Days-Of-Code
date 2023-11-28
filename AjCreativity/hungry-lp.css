@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.primary {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.hero {
+  background-image: url("/AjCreativity/photo/unsplash_dcPThE8G59E.png");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.african-children {
+  height: 30rem;
+  object-fit: cover;
+  width: 100%;
+}
