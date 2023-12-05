@@ -1,25 +1,165 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
-.primary {
-  width: 100%;
+.container-wrapper {
   display: flex;
-  overflow: hidden;
+  flex-direction: column;
+}
+body{
+  font-family: 'Lato', sans-serif;
 }
 
 .hero {
   background-image: url("/AjCreativity/photo/unsplash_dcPThE8G59E.png");
-  height: 100vh;
   background-size: cover;
-  position: relative;
-  overflow: hidden;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  display: flex;
+  align-items: center;
 }
 
 .african-children {
-  height: 30rem;
+  height: 100%;
   object-fit: cover;
   width: 100%;
 }
+
+.child{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 8.55rem;
+  color: #ffffff;
+  margin-left: 3.2rem;
+}
+
+#number{
+  margin-bottom: 0.5rem;
+  width: 19.75rem;
+  height: 2.375rem;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+#content{
+  width: 19.75rem;
+  height: 3.625rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.children{
+  height: 30rem;
+  flex: 33.33%;
+  object-fit: cover;
+  
+}
+
+.No-kid-hungry {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  color: #ffffff;
+  width: 39.8125rem;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.lorem {
+  width: 30rem;
+  color: #ffff;
+  line-height: 1.95rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 10.9375rem;
+  height: 4.125rem;
+  border-radius: 2.25rem;
+  padding: 24px, 48px, 24px, 48px;
+  gap: 0.625rem;
+  align-self: center;
+  justify-content: center;
+  border: none;
+  margin-top: 2rem;
+  border: none;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.writing {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  align-self: center;
+  color: #252525;
+  line-height: 1.125rem;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px){
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  background-image: url("/AjCreativity/photo/unsplash_dcPThE8G59E.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  display: flex;
+  flex-direction: column;
+  flex: 1;}
+
+.children{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+      display: flex;
+    flex-direction: column;
+  
+}
+.african-children {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  flex: 1;
+}
+
+}
+
